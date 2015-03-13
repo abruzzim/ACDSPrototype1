@@ -10,7 +10,6 @@
 		AF3BA3321AB364E30075F2D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3BA3311AB364E30075F2D5 /* main.m */; };
 		AF3BA3351AB364E30075F2D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3BA3341AB364E30075F2D5 /* AppDelegate.m */; };
 		AF3BA3381AB364E30075F2D5 /* ACDSPrototype.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF3BA3361AB364E30075F2D5 /* ACDSPrototype.xcdatamodeld */; };
-		AF3BA33B1AB364E30075F2D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3BA33A1AB364E30075F2D5 /* ViewController.m */; };
 		AF3BA33E1AB364E30075F2D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF3BA33C1AB364E30075F2D5 /* Main.storyboard */; };
 		AF3BA3401AB364E30075F2D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF3BA33F1AB364E30075F2D5 /* Images.xcassets */; };
 		AF3BA3431AB364E30075F2D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3BA3411AB364E30075F2D5 /* LaunchScreen.xib */; };
@@ -34,8 +33,6 @@
 		AF3BA3331AB364E30075F2D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AF3BA3341AB364E30075F2D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AF3BA3371AB364E30075F2D5 /* ACDSPrototype.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ACDSPrototype.xcdatamodel; sourceTree = "<group>"; };
-		AF3BA3391AB364E30075F2D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AF3BA33A1AB364E30075F2D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AF3BA33D1AB364E30075F2D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF3BA33F1AB364E30075F2D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AF3BA3421AB364E30075F2D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -85,8 +82,6 @@
 			children = (
 				AF3BA3331AB364E30075F2D5 /* AppDelegate.h */,
 				AF3BA3341AB364E30075F2D5 /* AppDelegate.m */,
-				AF3BA3391AB364E30075F2D5 /* ViewController.h */,
-				AF3BA33A1AB364E30075F2D5 /* ViewController.m */,
 				AF3BA33C1AB364E30075F2D5 /* Main.storyboard */,
 				AF3BA33F1AB364E30075F2D5 /* Images.xcassets */,
 				AF3BA3411AB364E30075F2D5 /* LaunchScreen.xib */,
@@ -224,7 +219,6 @@
 			files = (
 				AF3BA3351AB364E30075F2D5 /* AppDelegate.m in Sources */,
 				AF3BA3321AB364E30075F2D5 /* main.m in Sources */,
-				AF3BA33B1AB364E30075F2D5 /* ViewController.m in Sources */,
 				AF3BA3381AB364E30075F2D5 /* ACDSPrototype.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +412,7 @@
 				AF3BA3541AB364E30075F2D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF3BA3551AB364E30075F2D5 /* Build configuration list for PBXNativeTarget "ACDSPrototypeTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +421,7 @@
 				AF3BA3571AB364E30075F2D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
