@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "AlphaViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,35 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    // Return the screen object representing the device's screen.
+    CGRect viewRect = [[UIScreen mainScreen] bounds];
+    
+    // Report the dimensions of the main screen.
+    NSLog(@"%%AppDelegate-I-DEBUG, Screen is %f points high and %f points wide.", viewRect.size.height, viewRect.size.width);
+    
+    // Create a UIWindow
+    self.window = [[UIWindow alloc] initWithFrame:viewRect];
+    
+    // Instantiate custom view controllers.
+    AlphaViewController *alphaVC = [[AlphaViewController alloc] init];
+    
+    // Instantiate navigation controllers.
+    UINavigationController *alphaNC = [[UINavigationController alloc] initWithRootViewController:alphaVC];
+    
+    // Instantiate a tab bar controller.
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    
+    // Add the navigation controller to tab bar controller
+    [tabBarController setViewControllers:@[alphaNC]
+                                animated:YES];
+    
+    // Set the window's root view controller.
+    self.window.rootViewController = tabBarController;
+    
+    // Make the reciever the key window and visible.
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

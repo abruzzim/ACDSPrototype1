@@ -14,6 +14,7 @@
 		AF3BA3401AB364E30075F2D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF3BA33F1AB364E30075F2D5 /* Images.xcassets */; };
 		AF3BA3431AB364E30075F2D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3BA3411AB364E30075F2D5 /* LaunchScreen.xib */; };
 		AF3BA34F1AB364E30075F2D5 /* ACDSPrototypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3BA34E1AB364E30075F2D5 /* ACDSPrototypeTests.m */; };
+		AF3BA35A1AB367770075F2D5 /* AlphaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3BA3591AB367770075F2D5 /* AlphaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,8 @@
 		AF3BA3481AB364E30075F2D5 /* ACDSPrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACDSPrototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF3BA34D1AB364E30075F2D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF3BA34E1AB364E30075F2D5 /* ACDSPrototypeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACDSPrototypeTests.m; sourceTree = "<group>"; };
+		AF3BA3581AB367770075F2D5 /* AlphaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlphaViewController.h; sourceTree = "<group>"; };
+		AF3BA3591AB367770075F2D5 /* AlphaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlphaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 			children = (
 				AF3BA3331AB364E30075F2D5 /* AppDelegate.h */,
 				AF3BA3341AB364E30075F2D5 /* AppDelegate.m */,
+				AF3BA3581AB367770075F2D5 /* AlphaViewController.h */,
+				AF3BA3591AB367770075F2D5 /* AlphaViewController.m */,
 				AF3BA33C1AB364E30075F2D5 /* Main.storyboard */,
 				AF3BA33F1AB364E30075F2D5 /* Images.xcassets */,
 				AF3BA3411AB364E30075F2D5 /* LaunchScreen.xib */,
@@ -218,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF3BA3351AB364E30075F2D5 /* AppDelegate.m in Sources */,
+				AF3BA35A1AB367770075F2D5 /* AlphaViewController.m in Sources */,
 				AF3BA3321AB364E30075F2D5 /* main.m in Sources */,
 				AF3BA3381AB364E30075F2D5 /* ACDSPrototype.xcdatamodeld in Sources */,
 			);
