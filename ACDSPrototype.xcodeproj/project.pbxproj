@@ -15,6 +15,9 @@
 		AF3BA3431AB364E30075F2D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3BA3411AB364E30075F2D5 /* LaunchScreen.xib */; };
 		AF3BA34F1AB364E30075F2D5 /* ACDSPrototypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3BA34E1AB364E30075F2D5 /* ACDSPrototypeTests.m */; };
 		AF3BA35A1AB367770075F2D5 /* AlphaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3BA3591AB367770075F2D5 /* AlphaViewController.m */; };
+		AF3BA35D1AB36B520075F2D5 /* BetaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3BA35C1AB36B520075F2D5 /* BetaViewController.m */; };
+		AF3BA3601AB36B6E0075F2D5 /* GammaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3BA35F1AB36B6E0075F2D5 /* GammaViewController.m */; };
+		AF3BA3631AB36B890075F2D5 /* DeltaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3BA3621AB36B890075F2D5 /* DeltaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,12 @@
 		AF3BA34E1AB364E30075F2D5 /* ACDSPrototypeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACDSPrototypeTests.m; sourceTree = "<group>"; };
 		AF3BA3581AB367770075F2D5 /* AlphaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlphaViewController.h; sourceTree = "<group>"; };
 		AF3BA3591AB367770075F2D5 /* AlphaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlphaViewController.m; sourceTree = "<group>"; };
+		AF3BA35B1AB36B520075F2D5 /* BetaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BetaViewController.h; sourceTree = "<group>"; };
+		AF3BA35C1AB36B520075F2D5 /* BetaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BetaViewController.m; sourceTree = "<group>"; };
+		AF3BA35E1AB36B6E0075F2D5 /* GammaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GammaViewController.h; sourceTree = "<group>"; };
+		AF3BA35F1AB36B6E0075F2D5 /* GammaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GammaViewController.m; sourceTree = "<group>"; };
+		AF3BA3611AB36B890075F2D5 /* DeltaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeltaViewController.h; sourceTree = "<group>"; };
+		AF3BA3621AB36B890075F2D5 /* DeltaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeltaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +96,12 @@
 				AF3BA3341AB364E30075F2D5 /* AppDelegate.m */,
 				AF3BA3581AB367770075F2D5 /* AlphaViewController.h */,
 				AF3BA3591AB367770075F2D5 /* AlphaViewController.m */,
+				AF3BA35B1AB36B520075F2D5 /* BetaViewController.h */,
+				AF3BA35C1AB36B520075F2D5 /* BetaViewController.m */,
+				AF3BA35E1AB36B6E0075F2D5 /* GammaViewController.h */,
+				AF3BA35F1AB36B6E0075F2D5 /* GammaViewController.m */,
+				AF3BA3611AB36B890075F2D5 /* DeltaViewController.h */,
+				AF3BA3621AB36B890075F2D5 /* DeltaViewController.m */,
 				AF3BA33C1AB364E30075F2D5 /* Main.storyboard */,
 				AF3BA33F1AB364E30075F2D5 /* Images.xcassets */,
 				AF3BA3411AB364E30075F2D5 /* LaunchScreen.xib */,
@@ -223,7 +238,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF3BA3351AB364E30075F2D5 /* AppDelegate.m in Sources */,
+				AF3BA35D1AB36B520075F2D5 /* BetaViewController.m in Sources */,
+				AF3BA3601AB36B6E0075F2D5 /* GammaViewController.m in Sources */,
 				AF3BA35A1AB367770075F2D5 /* AlphaViewController.m in Sources */,
+				AF3BA3631AB36B890075F2D5 /* DeltaViewController.m in Sources */,
 				AF3BA3321AB364E30075F2D5 /* main.m in Sources */,
 				AF3BA3381AB364E30075F2D5 /* ACDSPrototype.xcdatamodeld in Sources */,
 			);

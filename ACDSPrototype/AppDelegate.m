@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 #import "AlphaViewController.h"
+#import "BetaViewController.h"
+#import "GammaViewController.h"
+#import "DeltaViewController.h"
 
 @interface AppDelegate ()
 
@@ -29,15 +32,21 @@
     
     // Instantiate custom view controllers.
     AlphaViewController *alphaVC = [[AlphaViewController alloc] init];
+    BetaViewController  *betaVC  = [[BetaViewController alloc] init];
+    GammaViewController *gammaVC = [[GammaViewController alloc] init];
+    DeltaViewController *deltaVC = [[DeltaViewController alloc] init];
     
     // Instantiate navigation controllers.
     UINavigationController *alphaNC = [[UINavigationController alloc] initWithRootViewController:alphaVC];
+    UINavigationController *betaNC  = [[UINavigationController alloc] initWithRootViewController:betaVC];
+    UINavigationController *gammaNC = [[UINavigationController alloc] initWithRootViewController:gammaVC];
+    UINavigationController *deltaNC = [[UINavigationController alloc] initWithRootViewController:deltaVC];
     
     // Instantiate a tab bar controller.
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     
     // Add the navigation controller to tab bar controller
-    [tabBarController setViewControllers:@[alphaNC]
+    [tabBarController setViewControllers:@[alphaNC, betaNC, gammaNC, deltaNC]
                                 animated:YES];
     
     // Set the window's root view controller.
