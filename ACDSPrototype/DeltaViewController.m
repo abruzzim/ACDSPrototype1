@@ -20,8 +20,8 @@
     
     if (self) {
         // Custom initialization.
-        self.title = @"DeltaVC";
-        self.tabBarItem.image = [UIImage imageNamed:@"microscope13"];
+        self.title = @"Medications";
+        self.tabBarItem.image = [UIImage imageNamed:@"pill"];
     }
     
     return self;

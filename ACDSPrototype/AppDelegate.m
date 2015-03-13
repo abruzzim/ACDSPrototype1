@@ -11,6 +11,7 @@
 #import "BetaViewController.h"
 #import "GammaViewController.h"
 #import "DeltaViewController.h"
+#import "EpsilonViewController.h"
 
 @interface AppDelegate ()
 
@@ -31,22 +32,24 @@
     self.window = [[UIWindow alloc] initWithFrame:viewRect];
     
     // Instantiate custom view controllers.
-    AlphaViewController *alphaVC = [[AlphaViewController alloc] init];
-    BetaViewController  *betaVC  = [[BetaViewController alloc] init];
-    GammaViewController *gammaVC = [[GammaViewController alloc] init];
-    DeltaViewController *deltaVC = [[DeltaViewController alloc] init];
+    AlphaViewController   *alphaVC   = [[AlphaViewController alloc] init];
+    BetaViewController    *betaVC    = [[BetaViewController alloc] init];
+    GammaViewController   *gammaVC   = [[GammaViewController alloc] init];
+    DeltaViewController   *deltaVC   = [[DeltaViewController alloc] init];
+    EpsilonViewController *epsilonVC = [[EpsilonViewController alloc] init];
     
     // Instantiate navigation controllers.
-    UINavigationController *alphaNC = [[UINavigationController alloc] initWithRootViewController:alphaVC];
-    UINavigationController *betaNC  = [[UINavigationController alloc] initWithRootViewController:betaVC];
-    UINavigationController *gammaNC = [[UINavigationController alloc] initWithRootViewController:gammaVC];
-    UINavigationController *deltaNC = [[UINavigationController alloc] initWithRootViewController:deltaVC];
+    UINavigationController *alphaNC   = [[UINavigationController alloc] initWithRootViewController:alphaVC];
+    UINavigationController *betaNC    = [[UINavigationController alloc] initWithRootViewController:betaVC];
+    UINavigationController *gammaNC   = [[UINavigationController alloc] initWithRootViewController:gammaVC];
+    UINavigationController *deltaNC   = [[UINavigationController alloc] initWithRootViewController:deltaVC];
+    UINavigationController *epsilonNC = [[UINavigationController alloc] initWithRootViewController:epsilonVC];
     
     // Instantiate a tab bar controller.
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     
     // Add the navigation controller to tab bar controller
-    [tabBarController setViewControllers:@[alphaNC, betaNC, gammaNC, deltaNC]
+    [tabBarController setViewControllers:@[alphaNC, betaNC, gammaNC, deltaNC, epsilonNC]
                                 animated:YES];
     
     // Set the window's root view controller.

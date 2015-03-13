@@ -1,18 +1,18 @@
 //
-//  BetaViewController.m
+//  EpsilonViewController.m
 //  ACDSPrototype
 //
 //  Created by abruzzim on 3/13/15.
 //  Copyright (c) 2015 Mario Abruzzi. All rights reserved.
 //
 
-#import "BetaViewController.h"
+#import "EpsilonViewController.h"
 
-@interface BetaViewController ()
+@interface EpsilonViewController ()
 
 @end
 
-@implementation BetaViewController
+@implementation EpsilonViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     
@@ -20,8 +20,8 @@
     
     if (self) {
         // Custom initialization.
-        self.title = @"Protocols";
-        self.tabBarItem.image = [UIImage imageNamed:@"medical50"];
+        self.title = @"Video";
+        self.tabBarItem.image = [UIImage imageNamed:@"professional8"];
     }
     
     return self;
@@ -31,7 +31,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Additional setup.
-    self.view.backgroundColor = [UIColor greenColor];
+    self.view.backgroundColor = [UIColor yellowColor];
 }
 
 - (void)didReceiveMemoryWarning {
