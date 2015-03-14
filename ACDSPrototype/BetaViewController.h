@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BetaViewController : UIViewController
+@interface BetaViewController : UITableViewController
 
 @end
