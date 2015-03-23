@@ -8,6 +8,7 @@
 
 #import "BetaViewController.h"
 #import "TreatmentProtocol.h"
+#import "SepsisViewController.h"
 
 @interface BetaViewController ()
 
@@ -80,12 +81,15 @@
     
     // Add the Start/Resume button to the cell.
     UIButton *protocolButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    protocolButton.layer.cornerRadius = 5;
     protocolButton.frame = CGRectMake(685.0f, 7.0f, 65.0f, 30.0f);
     protocolButton.backgroundColor = [UIColor grayColor];
-    protocolButton.layer.cornerRadius = 5;
-    [protocolButton setTitle:@"Start" forState:UIControlStateNormal];
+    [protocolButton setTitle:@"Start"
+                    forState:UIControlStateNormal];
     [cell addSubview:protocolButton];
-    [protocolButton addTarget:self action:@selector(startProtocol:) forControlEvents:UIControlEventTouchUpInside];
+    [protocolButton addTarget:self
+                       action:@selector(startProtocol:)
+             forControlEvents:UIControlEventTouchUpInside];
 
     return cell;
 
@@ -96,6 +100,8 @@
 - (void) startProtocol:(UIButton *)sender
 {
     NSLog(@"Protocol Start button pressed");
+    SepsisViewController *sepsisVC = [[SepsisViewController alloc] init];
+    [self.navigationController pushViewController:sepsisVC animated:YES];
 }
 
 // This method runs when a row is touched.

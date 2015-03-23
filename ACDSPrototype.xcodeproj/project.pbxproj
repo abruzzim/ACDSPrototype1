@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AF2A32CA1AB6AAC200442A53 /* TreatmentProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2A32C91AB6AAC200442A53 /* TreatmentProtocol.m */; };
+		AF2A32CD1AB6B27000442A53 /* SepsisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2A32CC1AB6B27000442A53 /* SepsisViewController.m */; };
 		AF3BA3321AB364E30075F2D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3BA3311AB364E30075F2D5 /* main.m */; };
 		AF3BA3351AB364E30075F2D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3BA3341AB364E30075F2D5 /* AppDelegate.m */; };
 		AF3BA3381AB364E30075F2D5 /* ACDSPrototype.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF3BA3361AB364E30075F2D5 /* ACDSPrototype.xcdatamodeld */; };
@@ -35,6 +36,8 @@
 /* Begin PBXFileReference section */
 		AF2A32C81AB6AAC200442A53 /* TreatmentProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreatmentProtocol.h; sourceTree = "<group>"; };
 		AF2A32C91AB6AAC200442A53 /* TreatmentProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreatmentProtocol.m; sourceTree = "<group>"; };
+		AF2A32CB1AB6B27000442A53 /* SepsisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SepsisViewController.h; sourceTree = "<group>"; };
+		AF2A32CC1AB6B27000442A53 /* SepsisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SepsisViewController.m; sourceTree = "<group>"; };
 		AF3BA32C1AB364E30075F2D5 /* ACDSPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACDSPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF3BA3301AB364E30075F2D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF3BA3311AB364E30075F2D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -104,6 +107,8 @@
 				AF3BA3591AB367770075F2D5 /* AlphaViewController.m */,
 				AF2A32C81AB6AAC200442A53 /* TreatmentProtocol.h */,
 				AF2A32C91AB6AAC200442A53 /* TreatmentProtocol.m */,
+				AF2A32CB1AB6B27000442A53 /* SepsisViewController.h */,
+				AF2A32CC1AB6B27000442A53 /* SepsisViewController.m */,
 				AF3BA35B1AB36B520075F2D5 /* BetaViewController.h */,
 				AF3BA35C1AB36B520075F2D5 /* BetaViewController.m */,
 				AF3BA35E1AB36B6E0075F2D5 /* GammaViewController.h */,
@@ -250,6 +255,7 @@
 				AF3BA3351AB364E30075F2D5 /* AppDelegate.m in Sources */,
 				AF2A32CA1AB6AAC200442A53 /* TreatmentProtocol.m in Sources */,
 				AF3BA35D1AB36B520075F2D5 /* BetaViewController.m in Sources */,
+				AF2A32CD1AB6B27000442A53 /* SepsisViewController.m in Sources */,
 				AF3BA3601AB36B6E0075F2D5 /* GammaViewController.m in Sources */,
 				AF3BA3661AB37A030075F2D5 /* EpsilonViewController.m in Sources */,
 				AF3BA35A1AB367770075F2D5 /* AlphaViewController.m in Sources */,

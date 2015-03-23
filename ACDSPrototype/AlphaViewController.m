@@ -32,6 +32,7 @@
     [super viewDidLoad];
     // Additional setup.
     self.view.backgroundColor = [UIColor redColor];
+    
 }
 
 - (void)didReceiveMemoryWarning {
